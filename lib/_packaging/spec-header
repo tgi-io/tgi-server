@@ -1,0 +1,5 @@
+/**---------------------------------------------------------------------------------------------------------------------
+ * tgi.io/tgi-server/lib/_packaging/spec-header
+ **/
+  var Server = TGI.SERVER().Server;
+  spec.mute(true);

@@ -1,0 +1,39 @@
+{
+  "name": "tgi-server",
+  "version": "0.0.2",
+  "description": "Server",
+  "contributors": [
+    {
+      "name": "Sean Smith",
+      "email": "sean@tgicloud.com"
+    }
+  ],
+  "dependencies": {
+    "tgi-spec": ">=0.1.12",
+    "tgi-core": "*"
+  },
+  "scripts": {
+    "test": "node spec/node-runner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tgi-io/tgi-store-json-file.git"
+  },
+  "keywords": [
+    "javascript",
+    "application",
+    "app",
+    "api",
+    "framework"
+  ],
+  "author": "Sean Smith <sean@tgicloud.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-concat": "^2.4.0",
+    "gulp-jshint": "^1.8.4",
+    "gulp-rename": "^1.2.0",
+    "gulp-uglify": "^1.0.1",
+    "jshint-stylish": "^1.0.0"
+  }
+}
